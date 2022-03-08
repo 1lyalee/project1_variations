@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: DisplayMagazine;
+    src:url("fonts/Display-Magazine-2.otf");
+}
+
+@font-face {
+    font-family: Typer;
+    src:url("fonts/QuietTyper-1.ttf");
+}
+
+
+
+#container{
+    position:absolute;
+    top:5%;
+    right:20%;
+    width: 30%;
+    height: 90%;
+    
+    text-align: center;
+    
+
+}
+
+
+h2{
+    position:absolute;
+    top:5%;
+    right:52%;
+
+    text-align: right;
+    font-family: DisplayMagazine;
+    letter-spacing: 5px;
+    font-size: 60px;
+    opacity: 1;
+}
+
+
+
+#poem{
+    line-height: 10%;
+}
+
+
+p{
+    font-family: Typer;
+
+}
+
+
+
+
+
+#anotherOutline{
+    position:absolute;
+    top:6%;
+    right:19.5%;
+    width: 30%;
+    height: 90%;
+    
+    
+    text-align: center;
+
+    background-image: url("texture.png");
+    background-blend-mode:soft-light;
+    background-size: cover;
+    
+    outline: 2px solid white;
+    opacity: 0.8;
+}

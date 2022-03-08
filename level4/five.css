@@ -1,0 +1,14 @@
+
+
+@font-face {
+    font-family: WeddingDream;
+    src:url("Amelline-2.ttf");
+}
+
+
+
+
+body{
+    margin:20%;
+    font-family: WeddingDream;
+}

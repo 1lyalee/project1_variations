@@ -1,0 +1,28 @@
+
+
+@font-face {
+    font-family: WeddingDream;
+    src:url("Amelline-2.ttf");
+}
+
+
+
+
+body{
+    margin:auto;
+    font-family: WeddingDream;
+    z-index: -1;
+    background-color: black;
+}
+
+#container{
+    margin:20%;
+    z-index: 1;
+    color:azure;
+}
+
+#myCanvas{
+    position: absolute;
+    z-index: 0;
+    top:0;
+}

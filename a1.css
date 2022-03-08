@@ -1,0 +1,186 @@
+
+@font-face {
+
+    font-family: NeueHaasGrotesk_bold;
+    src: url(fonts/NeueHaasDisplayBold.ttf);
+}
+
+
+@font-face {
+
+    font-family: NeueHaasGrotesk_thin;
+    src: url(fonts/NeueHaasDisplayThin.ttf);
+}
+
+
+body{
+    background: url("abstract.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:right top;
+}
+
+#container{
+    margin: auto;
+}
+
+.name{
+
+    font-size: 180px;
+    font-family: NeueHaasGrotesk_bold;
+
+    color:white;
+    text-decoration: none;
+
+    margin-left: -14px;
+
+}
+
+#first{
+    position: absolute;
+    margin-top: -47px;
+
+}
+
+#last{
+    position: absolute;
+    margin-top: 110px;
+
+}
+
+
+
+
+
+#link_container{
+    margin-top: 300px;
+    margin-bottom: 300px;
+
+}
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dropbtn {
+    border: none;
+    background-color: transparent; 
+    width: auto;
+    outline: none;
+
+    font-size: 130px;
+    font-family: NeueHaasGrotesk_bold;
+    color:white;
+    text-align: left;
+    
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    width: 90%;
+    bottom: 30px;
+    z-index: 1;
+}
+
+
+.dropdown_content a{
+    
+    font-size: 30px;
+    font-family: NeueHaasGrotesk_bold;
+    color:white;
+    padding: 4px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+}
+
+.link{
+    float: left;
+    width: 15%;
+}
+
+
+
+.dropdown_content a:hover {color:#1b1b1b; transition: .5s ease;}
+
+.dropdown:hover .dropdown_content {display: block;}
+
+.dropdown:hover #level {color:#202020; opacity: 50%; transition: .5s ease;}
+
+
+
+#external_link_container{
+    margin-bottom: 20px;
+    width:100%;
+    text-align: center;
+    background-color: transparent;
+    
+}
+
+
+.external_link{
+    
+    padding: 20px;
+    
+    font-size: 18px;
+    font-family:  NeueHaasGrotesk_thin;
+    letter-spacing: 1px;
+    color:white;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#external_link_container a:hover {color:#111111; opacity: 50%; transition: .5s ease;}
+
+
+
+
+
+
+/* 
+
+Use my own local typeface
+https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp
+https://www.w3schools.com/cssref/css_websafe_fonts.asp
+
+Setting the style of the background
+https://www.w3schools.com/css/css_background.asp
+https://www.w3schools.com/cssref/pr_background-position.asp
+
+
+Learning about the position
+https://www.w3schools.com/css/css_positioning.asp
+https://stackoverflow.com/questions/21194689/css-bleed-a-div-off-the-page
+https://www.w3schools.com/css/css_margin.asp
+
+
+Manipulating images
+https://www.w3schools.com/css/css3_images.asp
+https://www.w3schools.com/css/css_image_gallery.asp
+
+Manipulating the style of texts and paragraphs
+https://www.w3schools.com/cssref/pr_dim_line-height.asp
+https://www.w3schools.com/css/css_text.asp
+https://www.w3schools.com/css/css_list.asp
+
+
+Tried to make my own unique horizontal dropdown menu
+https://www.w3schools.com/howto/howto_css_mega_menu.asp
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar_hor
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropup_hover
+https://www.w3schools.com/howto/howto_css_dropdown.asp
+https://www.w3schools.com/css/css3_buttons.asp
+
+
+
+
+*/

@@ -1,0 +1,54 @@
+
+
+@font-face {
+    font-family: WeddingDream;
+    src:url("ZiGzAgEo-Reg-FFP-2.ttf");
+}
+
+
+
+body{
+    margin: auto;
+    width: 100%;
+    color: white;
+    font-family: WeddingDream;
+
+    background-color: black;
+
+}
+
+
+#header{
+    position:fixed ;
+    bottom: 50%;
+    left: 10px;
+    font-size: 30px;
+    font-style:italic;
+    line-height: 100px;
+}
+
+
+.center{
+
+    width: max-content;
+    height: 5vh;
+
+    justify-content: left;
+    align-items:flex-start;
+    line-height: 14px;
+    
+}
+
+
+p{
+    padding-top: 400px;
+    font-size: 100px;
+    margin-top: 20px;
+
+    font-weight: 200;
+    display: block;
+    text-align: left;
+
+
+}
+
