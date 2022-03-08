@@ -35,7 +35,7 @@ function getMousePos(evt) {
     
     create_circledata(circles, x,y);
 
-    if(circles.length > 200){
+    if(circles.length > 100){
         circles.splice(0,5);
     }
 }
